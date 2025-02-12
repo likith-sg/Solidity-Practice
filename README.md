@@ -125,6 +125,6 @@ For a detailed guide on Hardhat and Solidity testing, refer to [Nomic Labs Hardh
 Contributions are welcome! Feel free to fork the repository and submit pull requests with improvements or new Solidity examples.
 
 ## License
-This repository is open-source and available under the GPL v3 License.
+This repository is open-source and available under the GNU General Public License v3.0.
 
 For more information on Solidity, visit the [official Solidity documentation](https://docs.soliditylang.org/).
