@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_length",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_width",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "area",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "length",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "width",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/Rectangle.sol": "Rectangle"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/Rectangle.sol": {
+			"keccak256": "0x773fa9f5aacbb71b24ac21c8dbc444a149b4118a2b2211c37a77021fd1ad2e0f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://65af30a92023720df9b44d62f2cd2b5a35332833ecaf009c7c2bc3a8352e7f55",
+				"dweb:/ipfs/QmY1qHuUj2Vo5DMsXbz2VxYtzXtJwsXzxLg4GajZoGBhMm"
+			]
+		},
+		"Assignments/Shape.sol": {
+			"keccak256": "0xa5f2287795c8f64dd7b7dadba91a84ab62ca92eef14cfe08615bbdb9437f88ea",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c3cb8b89f20f0b2ea806f5441243c6ff8e7818b46f01103b05a83f85fe12a877",
+				"dweb:/ipfs/QmRHin3fCBju6cJhbCDL4JFwFwjNw61qDS3CBff3gNWFmB"
+			]
+		}
+	},
+	"version": 1
+}

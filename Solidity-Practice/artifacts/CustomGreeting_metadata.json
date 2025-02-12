@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getGreeting",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/program-CustomGreeting.sol": "CustomGreeting"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/program-34.sol": {
+			"keccak256": "0x4ac2e9bd38073ee564f108e93f71b4aa425d79e288054d2f11151781c4010d98",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b23b1907081fa6d4c6a67c8b4e5c84a2143b23d3e88745ac64fa21f0f9f7159f",
+				"dweb:/ipfs/QmT8RXdfLwd3XbozHSZbF1cv5fzoqunYJgbG7FUR2kG4yd"
+			]
+		},
+		"Assignments/program-CustomGreeting.sol": {
+			"keccak256": "0x80f83cb9bfa29b5582723a94ca28ca4342669a7cb3fe9bfd99fcd0e98c0cfa0b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://40e721de787c80247b0e8466dc811356876026b56b8166768a28803ebc01147b",
+				"dweb:/ipfs/QmYQSTfYAKn4be2MTT3JEtCb1xG2Q8u1Yp87FQ6aboiXtZ"
+			]
+		}
+	},
+	"version": 1
+}

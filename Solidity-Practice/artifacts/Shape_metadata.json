@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "area",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/Shape.sol": "Shape"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/Shape.sol": {
+			"keccak256": "0xa5f2287795c8f64dd7b7dadba91a84ab62ca92eef14cfe08615bbdb9437f88ea",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c3cb8b89f20f0b2ea806f5441243c6ff8e7818b46f01103b05a83f85fe12a877",
+				"dweb:/ipfs/QmRHin3fCBju6cJhbCDL4JFwFwjNw61qDS3CBff3gNWFmB"
+			]
+		}
+	},
+	"version": 1
+}

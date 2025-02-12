@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "createUserProfile",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "getUserProfile",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/ProfileManager.sol": "ProfileManager"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/ProfileManager.sol": {
+			"keccak256": "0xa111abd13b2442cd39e89c0f173d0583f398b85ff18c55d82d875425391c011a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8720a8ad4030161225f3d1425c70187409ff72c5bac596fb386f8996005c1bfc",
+				"dweb:/ipfs/QmWzRtjkKVXiqckcwmmAmHtD7SSneJuY1T2uWEZ55CoqhP"
+			]
+		},
+		"Assignments/UserProfile.sol": {
+			"keccak256": "0x75975a312c1f9e2370dfe1aef45577ff21105e914c99671b465d8fdf5f084ece",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3a25ab2999083825cb3b1e56ed2266ddee1461690556f8d5b45b98e2b0e2f23c",
+				"dweb:/ipfs/QmekqwURzhf4oRHAGstHaGJSpaw9T3Z9P7Q84qB3RpzUjk"
+			]
+		}
+	},
+	"version": 1
+}

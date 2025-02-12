@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/program-7.sol": "state"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/program-7.sol": {
+			"keccak256": "0x46b45dffca51b9c1f53df6fd45c9b86406e7a854fc89f103ae0321539bd9c806",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0463be2a1b396710fbfce4e9952dacce0f29c5ee11d26f4ede141c5b56890a37",
+				"dweb:/ipfs/Qmet2G3P19dqwzbADjJymespcC9DqRz8ZUuHY9VhYbYYPA"
+			]
+		}
+	},
+	"version": 1
+}

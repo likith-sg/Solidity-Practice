@@ -1,0 +1,107 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "subtract",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/program-Calculator.sol": "Calculator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/program-32.1.sol": {
+			"keccak256": "0xd08b60fdfe8d9402c64feacbffaeba08428b47679bbf25324a05f64d68248480",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3668c10c5dd3dcba81d8fa87b81209d634786cf3a649dae93514047ff92a2153",
+				"dweb:/ipfs/QmPCpCb7QgkS2q34Xe7Ztiv3HCSrMG4zj9p1SabrTtjdE1"
+			]
+		},
+		"Assignments/program-Calculator.sol": {
+			"keccak256": "0x2c44a5225cd73c5e98a131973b5e12e44e3b2838192f8c63b78770e5b33742f4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://269175fdf0a5b8510a473bfb57d90ba1d9bd9768260acca72953373e5c010897",
+				"dweb:/ipfs/QmTU5tdBYdabsJZDH7wJJ9JY31JsKfUvgC7YuWpZ2X571f"
+			]
+		}
+	},
+	"version": 1
+}

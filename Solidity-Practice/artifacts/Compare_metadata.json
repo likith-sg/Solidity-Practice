@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "compare_str",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_msg1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_msg2",
+						"type": "string"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/program-21.sol": "Compare"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/program-21.sol": {
+			"keccak256": "0xb95f3430ef7f5b68977e7d85d25143f701be2fd7b3fceb32ad77a7acc6c63e85",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://53616eee11ec84725a00d54c1a27ac27d6e883cf60ef53bc458dbe69c307591d",
+				"dweb:/ipfs/QmVxRHYk2UG1gqjANtKCDZJSw5o6Jqhkb2wqua4niumfxr"
+			]
+		}
+	},
+	"version": 1
+}

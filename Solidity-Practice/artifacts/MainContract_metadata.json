@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "addnum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "contract Counter",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCounterValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrementCounter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/program-MainContract.sol": "MainContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/program-31.sol": {
+			"keccak256": "0x017e8c1ba316cd2e26c723fc550147764ff9a037090ae997c2418fdc1c81cea8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cd22f84553f2040cfec420b5c02debf0a1c77ba942cfaf93e459c0313cc4068a",
+				"dweb:/ipfs/QmXCJUFangaPTM3pMdU9SYvkGxFPQXaeApv6frQzbaRGY1"
+			]
+		},
+		"Assignments/program-MainContract.sol": {
+			"keccak256": "0xf6388cd3bbe41f0f229f9e435e322be74639f49c1c0dfab33c29cc10edf63bc4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://dce50cde58f63007f34cc2741b3ed3c1bb8b75d12c0fca0c039c027c110d9d95",
+				"dweb:/ipfs/QmT3VU5ja2MHUZKdLFPfPuu4JM1QArtED2Sg5Qv3dXodPs"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "vote",
+						"type": "uint256"
+					}
+				],
+				"name": "getVote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/program-10.1.sol": "Votes"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/program-10.1.sol": {
+			"keccak256": "0xa315642a11c1d97fc4d81d712b7516568f1bca601672043c38b359f5973b185d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://20ba6ff55ce48aba8185288e7f67bfaac0627612420bd5580e5e0663741ee7b5",
+				"dweb:/ipfs/QmRiiwaXZpUAbAzsPxzk3UrDz8RVJNfjHYhALQQNpuR5Ed"
+			]
+		}
+	},
+	"version": 1
+}

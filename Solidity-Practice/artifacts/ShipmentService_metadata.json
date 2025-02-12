@@ -1,0 +1,186 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "pin",
+						"type": "uint256"
+					}
+				],
+				"name": "acceptOrder",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "customerAddress",
+						"type": "address"
+					}
+				],
+				"name": "checkStatus",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "completedDeliveries",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "orders",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "placed",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "shipped",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "delivered",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "pin",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "customerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "pin",
+						"type": "uint256"
+					}
+				],
+				"name": "shipWithPin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "customerAddress",
+						"type": "address"
+					}
+				],
+				"name": "totalCompletedDeliveries",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "warehouseOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignments/program-32.sol": "ShipmentService"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignments/program-32.sol": {
+			"keccak256": "0x847704d06689abbf7b61a1e26ee230271eee12873b19dc23f6d32ab8a9a3d8d0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a25ea16ce8935be809966b52ec886c72c293226e62dd0cbfdf6f0d9bedb695f8",
+				"dweb:/ipfs/QmU6r3QpFbtAEVJDxgFKZNscMPWfE1NfqqbGzmup4wiqYz"
+			]
+		}
+	},
+	"version": 1
+}
