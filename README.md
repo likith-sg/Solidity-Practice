@@ -106,11 +106,15 @@ Inside the console, you can call contract functions:
 const contract = await ethers.getContractAt("ContractName", "DEPLOYED_CONTRACT_ADDRESS");
 await contract.someFunction();
 ```
-## Related Project: Voting System
+## Related Projects:
 
-This repository is part of a broader Solidity learning initiative. Check out the **Voting System** project, which demonstrates a blockchain-based election system using Solidity and Hardhat:
+1. This repository is part of a broader Solidity learning initiative. Check out the **Voting System** project, which demonstrates a blockchain-based election system using Solidity and Hardhat:
 
 [🔗 Voting System Repository](https://github.com/likith-sg/Voting-System)
+
+2. This repository is part of developing a full stack dapp. Check out the **DPay** project, which demonstrates a blockchain-based Decentralized Wallet App using Solidity , Hardhat , JavaScript, Vue and supports MetaMask:
+
+[🔗 DPay Repository](https://github.com/likith-sg/DPay)
 
 For a detailed guide on Hardhat and Solidity testing, refer to [Nomic Labs Hardhat Documentation](https://hardhat.org/).
 
